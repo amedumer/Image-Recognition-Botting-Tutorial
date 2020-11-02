@@ -17,6 +17,9 @@ import keyboard
 import random
 import win32api, win32con
 
+pyautogui.displayMousePosition()
+pyautogui.locateOnScreen()
+
 Here is the click function:
 
 def click(x,y):
